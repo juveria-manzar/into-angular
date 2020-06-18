@@ -23,6 +23,6 @@ import { HeaderComponent } from './core/header/header.component';
     CoreModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,UserComponent]
 })
 export class AppModule { }

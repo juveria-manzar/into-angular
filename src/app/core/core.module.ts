@@ -9,6 +9,7 @@ import { CoreDirectiveDirective } from './core-directive.directive';
   declarations: [HeaderComponent, CorePipePipe, CoreDirectiveDirective],
   imports: [
     CommonModule
-  ]
+  ],
+  exports:[HeaderComponent]
 })
 export class CoreModule { }
