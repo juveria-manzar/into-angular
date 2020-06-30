@@ -10,6 +10,7 @@ import { SafePipe } from './pipes/safe/safe.pipe';
 import { UserService } from './user/user.service';
 import { CoreModule } from './core/core.module';
 import { HeaderComponent } from './core/header/header.component';
+import { UsersComponent } from './components/users/users.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HeaderComponent } from './core/header/header.component';
     UserComponent,
     TransformDirective,
     SafePipe,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
