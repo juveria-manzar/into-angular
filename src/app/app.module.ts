@@ -11,6 +11,7 @@ import { HeaderComponent } from './core/header/header.component';
 import { UsersComponent } from './components/users/users.component';
 import { UserComponent } from './components/users/user/user.component';
 import { ChatComponent } from './components/chat/chat.component';
+import { StringInterpolationComponent } from './components/bindings/string-interpolation/string-interpolation.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ChatComponent } from './components/chat/chat.component';
     SafePipe,
     UsersComponent,
     ChatComponent,
+    StringInterpolationComponent,
   ],
   imports: [
     BrowserModule,
