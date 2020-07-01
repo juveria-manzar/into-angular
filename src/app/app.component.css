@@ -1,7 +1,3 @@
-h1 {
-    color: blue;
-}
-
 .styled {
-    background-color: indianred;
+    border: 4px dashed black;
 }
