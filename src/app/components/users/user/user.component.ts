@@ -4,7 +4,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   selector: 'app-user',
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.css'],
-  encapsulation:ViewEncapsulation.ShadowDom
+  encapsulation:ViewEncapsulation.None
 })
 export class UserComponent implements OnInit {
 
