@@ -12,6 +12,7 @@ import { UsersComponent } from './components/users/users.component';
 import { UserComponent } from './components/users/user/user.component';
 import { ChatComponent } from './components/chat/chat.component';
 import { StringInterpolationComponent } from './components/bindings/string-interpolation/string-interpolation.component';
+import { PropertyBindingComponent } from './components/bindings/property-binding/property-binding.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { StringInterpolationComponent } from './components/bindings/string-inter
     UsersComponent,
     ChatComponent,
     StringInterpolationComponent,
+    PropertyBindingComponent,
   ],
   imports: [
     BrowserModule,
