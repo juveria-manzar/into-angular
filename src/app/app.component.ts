@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'into-angular';
+  counter=0;
+  classToSet="positive"
+
+  onCounterChange(buttonType:string){
+    console.log(buttonType)
+    buttonType === 'INC' ? this.counter++ : this.counter--;
+    this.classToSet=this.counter >= 0 ? 'positive' : 'negative';
+  }
+
 }
